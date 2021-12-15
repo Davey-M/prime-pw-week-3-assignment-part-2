@@ -14,9 +14,19 @@ for (let i=0; i<4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
 
+// To count from 0 to 5 the second part of the loop needs to be changed to < 6 or <= 5
+for (let i = 0; i < 6; i++) {
+	console.log(i);
+}
+
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
+
+// To count from 3 to 5 "i" should be declared with value of 3 and then you iterate while "i" < 6 or "i" <= 5.
+for (let i = 3; i < 6; i++) {
+    console.log(i);
+  }
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
