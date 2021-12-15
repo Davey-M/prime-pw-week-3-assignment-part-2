@@ -32,6 +32,22 @@ for (let i = 3; i < 6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
+// The part that needs to be changed for this is the bit of the for loop. We need to add 2 to it instead of one.
+for (let i = 2; i < 11; i += 2)
+{
+    console.log(i);
+}
+
+// Alternatively we could count even numbers with a conditional in the for loop.
+console.log('Alternative method:')
+for (let i = 2; i < 11; i++)
+{
+    if (i % 2 === 0)
+    {
+        console.log(i);
+    }
+}
+
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
 
